@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+    @apply text-white font-semibold py-2 px-3 border-2  rounded-lg  transition duration-200;
+}
+
+.btn-primary{
+    @apply bg-blue-500 border-blue-500;
+}
+.btn-primary:hover{
+    @apply bg-blue-600 border-blue-600;
+    
+}
+.btn-primary:focus{
+    @apply outline-none;
+}
+
+.card{
+    @apply flex justify-center items-center h-screen;
+}
+.card-play{
+    @apply w-1/3 bg-white shadow-lg rounded-lg;
+}
+.card-header{
+    @apply border-b-2 text-center justify-center items-center;
+}
+.card-image{
+    @apply rounded-t-lg;
+}
+.card-body{
+    @apply p-4;
+}
+.card-title{
+    @apply text-gray-800 leading-relaxed mb-6 text-justify;
+}
+.card-button{
+    @apply text-right justify-center items-center;
+}
+
+::-webkit-scrollbar{
+    @apply w-5
+}
+
